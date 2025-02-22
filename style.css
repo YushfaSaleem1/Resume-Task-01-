@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin: 5px 0;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+    h1, h2, h3 {
+        font-size: 1.2em;
+    }
+    p, ul li {
+        font-size: 0.9em;
+    }
+}
